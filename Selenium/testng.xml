@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoWebShop Regression Suite">
+	<parameter name="URL" value="https://demowebshop.tricentis.com/"></parameter>
+    <test thread-count="5" name="Regression Test">
+    <classes>
+	  <class name="testcases.DWS_Books_DisplayTC"/>
+      <class name="testcases.DWS_ComputersTC"/>
+      <class name="testcases.DWS_CommunityPollTC"/>
+      <class name="testcases.DWS_SubscribeTC"/>
+      <class name="testcases.DWS_SearchTC"/>
+      <class name="testcases.DWS_Computers_SortbyTC"/>
+      <class name="testcases.DWS_BooksTC"/>
+    </classes>
+  </test> <!-- Regression Test -->
+</suite> <!-- DemoWebShop Regression Suite -->
+  
